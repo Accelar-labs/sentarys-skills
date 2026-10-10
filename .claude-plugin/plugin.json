@@ -1,0 +1,10 @@
+{
+  "name": "sentarys",
+  "version": "1.0.0",
+  "description": "Clip podcasts and long videos into Shorts, edit vlogs, make faceless videos, caption, dub and publish with the Sentarys MCP server.",
+  "author": { "name": "Sentarys Team", "email": "contact@sentarys.com", "url": "https://sentarys.com" },
+  "homepage": "https://sentarys.com/docs/agents",
+  "repository": "https://github.com/Accelar-labs/sentarys-skills",
+  "license": "MIT",
+  "keywords": ["video", "shorts", "clips", "podcast", "captions", "dubbing", "faceless", "mcp"]
+}

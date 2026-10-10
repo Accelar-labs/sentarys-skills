@@ -1,0 +1,14 @@
+{
+  "name": "sentarys",
+  "owner": { "name": "Sentarys Team", "email": "contact@sentarys.com" },
+  "metadata": { "description": "Sentarys skills and MCP server for AI video editing." },
+  "plugins": [
+    {
+      "name": "sentarys",
+      "source": "./",
+      "description": "Clip podcasts and long videos into Shorts, edit vlogs, make faceless videos, caption, dub and publish with the Sentarys MCP server.",
+      "homepage": "https://sentarys.com/docs/agents",
+      "category": "productivity"
+    }
+  ]
+}

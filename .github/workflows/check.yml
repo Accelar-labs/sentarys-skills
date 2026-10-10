@@ -1,0 +1,12 @@
+name: check
+on: [push, pull_request]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync.mjs --check
+      - run: node -e "for (const f of ['.claude-plugin/plugin.json','.claude-plugin/marketplace.json','.mcp.json','listings/server.json']) JSON.parse(require('fs').readFileSync(f,'utf8'))"
